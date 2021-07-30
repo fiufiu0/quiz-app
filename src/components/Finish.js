@@ -2,8 +2,8 @@ import React from 'react'
 
 function Finish() {
     return (
-        <div>
-            <h1>Finish Comp</h1>
+        <div className="Finish">
+            <h1>Finish!</h1>
         </div>
     )
 }
