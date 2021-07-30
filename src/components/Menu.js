@@ -8,7 +8,7 @@ function Menu() {
 
     return (
         <div className="Menu">
-            <button onClick={() => { setGameState("quiz") }}>Start Quiz</button>
+            <button className="Button" onClick={() => { setGameState("quiz") }}>Start Quiz</button>
         </div>
     )
 }
