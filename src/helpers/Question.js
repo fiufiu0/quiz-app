@@ -48,7 +48,7 @@ export const Questions = [
         answer: "C",
     },
     {
-        question: "How do you write `Hello World` in an alert box?",
+        question: `How do you write "Hello World" in an alert box?`,
         optionA: `alert("Hello World");`,
         optionB: `msgBox("Hello World");`,
         optionC: `msg("Hello World");`,

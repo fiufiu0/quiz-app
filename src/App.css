@@ -1,6 +1,8 @@
 :root {
   --bg-color: #4785C2;
   --button-color: #2E5C8A;
+  --white: #FFFFFF;
+  --button-hover: #69b0f8;
 }
 
 .App {
@@ -9,6 +11,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 50px auto;
 }
 
 .Menu {
@@ -22,8 +25,28 @@
   align-items: center;
 }
 
+.Menu input {
+ width: 300px;
+ height: 45px;
+ margin: 10px;
+ margin-bottom: 30px;
+ /* border: none; */
+ border-radius: 5px;
+ font-size: 18px;
+ background-color: #69b0f8;
+ border: 1px solid #FFFFFF;
+ color: #FFFFFF;
+ outline: none;
+ text-align: center;
+}
+
+.Name {
+  font-size: 18px;
+  font-family: monospace;
+}
+
 .Menu button, .Quiz button, .Finish button {
-  width: 300px;
+  width: 250px;
   height: 50px;
   margin: 5px;
   border: none;
